@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:id="@+id/upload"
+        android:text="Upload" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/download"
+        android:text="Download"
+        android:layout_below="@+id/upload"
+        android:layout_alignLeft="@+id/upload"
+        android:layout_alignStart="@+id/upload"
+        android:layout_marginTop="44dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout"
+        android:text="Logout"
+        android:layout_below="@+id/download"
+        android:layout_alignLeft="@+id/download"
+        android:layout_alignStart="@+id/download"
+        android:layout_marginTop="44dp" />
+
+</RelativeLayout>
